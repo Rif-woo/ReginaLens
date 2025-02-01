@@ -9,7 +9,7 @@ import SocialLinksSection from "@/components/sections/SocialLinksSection";
 export default function Home() {
   return (
     <main className="bg-[#fcf5e8] min-h-screen w-full">
-      <div className="w-full h-screen mx-auto px-20 min-[768px]:max-[1280px]:px-10 ">
+      <div className="w-full h-screen mx-auto px-20 min-[768px]:max-[1280px]:px-10 max-md:px-3">
         <HeroSection />
         <AboutSection />
         <WhyChooseUsSection />
