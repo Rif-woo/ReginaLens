@@ -4,7 +4,7 @@ import QualityBox from '../QualityBox';
 const AboutSection = () => {
   return (
     <div className='flex flex-col justify-center items-center gap-4 w-full mb-48'>
-      <h1 className='text-4xl font-medium mb-16'>QUI SOMME NOUS ?</h1>
+      <h1 className='text-4xl font-medium mb-16 xl:max-[1515px]:text-2xl xl:max-[1515px]:mb-10 min-[768px]:max-[1280px]:mb-5 min-[768px]:max-[1280px]:text-2xl'>QUI SOMME NOUS ?</h1>
       <div className='flex justify-center items-center gap-16 w-full'>
         {/* Image */}
          <div className=''>
@@ -13,12 +13,12 @@ const AboutSection = () => {
             alt="Hero"
             width={600}
             height={400}
-            className="object-cover object-top h-[720px] w-[600px] rounded-lg"
+            className="object-cover object-top h-[720px] w-[600px] rounded-lg xl:max-[1515px]:h-[500px] xl:max-[1515px]:w-[450px] min-[768px]:max-[1280px]:h-[450px] min-[768px]:max-[1280px]:w-[350px]"
           />
         </div>
 
         {/* QualityBoxes */}
-        <div className='flex flex-col justify-center items-center gap-10'>
+        <div className='flex flex-col justify-center items-center gap-10 xl:max-[1515px]:gap-5 min-[768px]:max-[1280px]:gap-3'>
           <QualityBox
             title="Expertise & Qualité"
             description="Lunetterie agrée par ART'LENS France, spécialisée dans les lunettes médicales et solaires."

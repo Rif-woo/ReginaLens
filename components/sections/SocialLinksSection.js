@@ -14,7 +14,7 @@ const SocialLinksSection = () => {
             alt="Hero"
             width={65}
             height={60}
-            className="object-cover object-center"
+            className="object-cover object-center min-[768px]:max-[1280px]:w-[60px] min-[768px]:max-[1280px]:h-[55px]"
             />
             </Link >
         </div>
@@ -28,7 +28,7 @@ const SocialLinksSection = () => {
             alt="Hero"
             width={40}
             height={60}
-            className="object-cover object-center"
+            className="object-cover object-center min-[768px]:max-[1280px]:w-[30px] min-[768px]:max-[1280px]:h-[30px]"
             />
          </Link >
              <Link
@@ -39,7 +39,7 @@ const SocialLinksSection = () => {
             alt="Hero"
             width={40}
             height={60}
-            className="object-cover object-center"
+            className="object-cover object-center min-[768px]:max-[1280px]:w-[30px] min-[768px]:max-[1280px]:h-[30px]"
             />
           </Link >
                <Link
@@ -50,7 +50,7 @@ const SocialLinksSection = () => {
             alt="Hero"
             width={40}
             height={60}
-            className="object-cover object-center"
+            className="object-cover object-center min-[768px]:max-[1280px]:w-[30px] min-[768px]:max-[1280px]:h-[30px]"
             />
           </Link >
              <Link
@@ -62,7 +62,7 @@ const SocialLinksSection = () => {
             alt="Hero"
             width={40}
             height={60}
-            className="object-cover object-center"
+            className="object-cover object-center min-[768px]:max-[1280px]:w-[30px] min-[768px]:max-[1280px]:h-[30px]"
             />
          </Link >
 
