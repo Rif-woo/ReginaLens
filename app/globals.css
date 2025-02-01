@@ -7,7 +7,7 @@
 * Font Family: Satoshi
 * Designed by: Deni Anggara
 * URL: https://www.fontshare.com/fonts/satoshi
-* © 2025 Indian Type Foundry
+* 2025 Indian Type Foundry
 *
 * Satoshi Light
 * Satoshi LightItalic
@@ -24,7 +24,7 @@
 
 *
 */
-html {
+html {  
   scroll-behavior: smooth;
 }
 @font-face {
@@ -165,15 +165,8 @@ html {
 
 
 :root {
-  --background: #FCF5E8;
+  --background: #fcf5e8;
   --foreground: #171717;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
