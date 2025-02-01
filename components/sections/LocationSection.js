@@ -4,7 +4,7 @@ import Link from 'next/link';
 const LocationSection = () => {
   return (
     <div className='flex flex-col justify-center items-center gap-4 w-full mb-32 '>
-      <h1 className='text-4xl font-medium mb-8 uppercase xl:max-[1515px]:text-2xl min-[768px]:max-[1280px]:text-2xl max-md:text-xl text-center max-md:font-semibold'>Nous retrouver ici </h1>
+      <h1 className='text-4xl font-medium mb-8 uppercase xl:max-[1515px]:text-2xl min-[768px]:max-[1280px]:text-2xl max-md:text-xl text-center max-md:font-semibold underline'>Nous retrouver ici </h1>
 
       <Link href="https://maps.google.com/?q=14.742954,-17.457909" target="_blank" className="relative">
         <div className="relative">

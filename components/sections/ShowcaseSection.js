@@ -4,7 +4,7 @@ const ShowcaseSection = () => {
   return (
     <div className='flex justify-center items-center w-full mb-48 xl:max-[1515px]:mb-32 min-[768px]:max-[1280px]:mb-28 '>
       <div className='flex justify-center items-center gap-8 relative border-4 border-white rounded-xl pt-8 pb-64 p-16 xl:max-[1515px]:pb-60 min-[768px]:max-[1280px]:pb-52 min-[768px]:max-[1280px]:p-12 max-md:flex-col max-md:p-2 max-md:w-[850px]'>
-           <h1 className='text-xl font-medium md:hidden  max-md:font-semibold'>Nos Lunettes</h1>
+           <h1 className='text-2xl font-medium md:hidden  max-md:font-semibold'>Nos Lunettes</h1>
         <Image
           src="/ph6.jpeg"
           alt="Hero"
