@@ -8,8 +8,8 @@ import SocialLinksSection from "@/components/sections/SocialLinksSection";
 
 export default function Home() {
   return (
-    <main className="bg-[#fcf5e8] min-h-screen">
-      <div className="w-full h-screen mx-auto px-20 min-[768px]:max-[1280px]:px-10">
+    <main className="bg-[#fcf5e8] min-h-screen w-full">
+      <div className="w-full h-screen mx-auto px-20 min-[768px]:max-[1280px]:px-10 ">
         <HeroSection />
         <AboutSection />
         <WhyChooseUsSection />

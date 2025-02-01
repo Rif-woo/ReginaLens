@@ -4,7 +4,7 @@ import Link from 'next/link';
 const SocialLinksSection = () => {
   return (
     <div className='flex justify-center items-center w-full p-4'>
-      <div className='flex justify-between items-center gap-4 bg-[#f7f7f7] w-[800px] rounded-2xl px-8'>
+      <div className='flex justify-between items-center gap-4 bg-[#f7f7f7] w-[800px] rounded-2xl px-8 max-md:w-full max-md:px-2'>
         <div>
             <Link
             href="https://www.reginalens.com/"
@@ -14,7 +14,7 @@ const SocialLinksSection = () => {
             alt="Hero"
             width={65}
             height={60}
-            className="object-cover object-center min-[768px]:max-[1280px]:w-[60px] min-[768px]:max-[1280px]:h-[55px]"
+            className="object-cover object-center min-[768px]:max-[1280px]:w-[60px] min-[768px]:max-[1280px]:h-[55px] max-md:w-[50px] max-md:h-[50px]"
             />
             </Link >
         </div>
@@ -28,7 +28,7 @@ const SocialLinksSection = () => {
             alt="Hero"
             width={40}
             height={60}
-            className="object-cover object-center min-[768px]:max-[1280px]:w-[30px] min-[768px]:max-[1280px]:h-[30px]"
+            className="object-cover object-center min-[768px]:max-[1280px]:w-[30px] min-[768px]:max-[1280px]:h-[30px] max-md:w-[30px] max-md:h-[30px]"
             />
          </Link >
              <Link
@@ -39,7 +39,7 @@ const SocialLinksSection = () => {
             alt="Hero"
             width={40}
             height={60}
-            className="object-cover object-center min-[768px]:max-[1280px]:w-[30px] min-[768px]:max-[1280px]:h-[30px]"
+            className="object-cover object-center min-[768px]:max-[1280px]:w-[30px] min-[768px]:max-[1280px]:h-[30px] max-md:w-[30px] max-md:h-[30px]"
             />
           </Link >
                <Link
@@ -50,7 +50,7 @@ const SocialLinksSection = () => {
             alt="Hero"
             width={40}
             height={60}
-            className="object-cover object-center min-[768px]:max-[1280px]:w-[30px] min-[768px]:max-[1280px]:h-[30px]"
+            className="object-cover object-center min-[768px]:max-[1280px]:w-[30px] min-[768px]:max-[1280px]:h-[30px] max-md:w-[30px] max-md:h-[30px]"
             />
           </Link >
              <Link
@@ -62,7 +62,7 @@ const SocialLinksSection = () => {
             alt="Hero"
             width={40}
             height={60}
-            className="object-cover object-center min-[768px]:max-[1280px]:w-[30px] min-[768px]:max-[1280px]:h-[30px]"
+            className="object-cover object-center min-[768px]:max-[1280px]:w-[30px] min-[768px]:max-[1280px]:h-[30px] max-md:w-[30px] max-md:h-[30px]"
             />
          </Link >
 
