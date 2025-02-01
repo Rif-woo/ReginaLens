@@ -1,9 +1,10 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 const HeroSection = () => {
   return (
     <div className=' w-full h-full flex flex-col justify-start items-center gap-16 xl:max-[1515px]:gap-10 xl:max-[1515px]:mb-32 min-[768px]:max-[1280px]:gap-15 min-[768px]:max-[1280px]:mb-20 min-[768px]:max-[1514px]:h-[720px]
-    min-[768px]:max-[1514px]:mb-0 '>
+    min-[768px]:max-[1514px]:mb-0 max-md:gap-4'>
       <div>
         <Image
           src="/reginaLens.svg"
@@ -27,7 +28,7 @@ const HeroSection = () => {
           </div>
 
           {/* Button */}
-          <button className='flex justify-left items-center gap-2 text-xl  bg-[#1E1E1E] w-fit p-2 pl-4 pr-4 text-white rounded-lg xl:max-[1515px]:px-2 xl:max-[1515px]:text-base min-[768px]:max-[1280px]:text-sm max-md:text-xs max-md:px-2 max-md:pl-2 max-md:pr-2'>
+          <Link href="#AboutUs" className='flex justify-left items-center gap-2 text-xl  bg-[#1E1E1E] w-fit p-2 pl-4 pr-4 text-white rounded-lg xl:max-[1515px]:px-2 xl:max-[1515px]:text-base min-[768px]:max-[1280px]:text-sm max-md:text-base max-md:px-4'>
             Decouvrir Plus
             <Image
               src="/arrow-right2.svg"
@@ -36,7 +37,7 @@ const HeroSection = () => {
               height={20}
               className="object-cover object-top top-0 color-white xl:max-[1515px]:w-[30px] min-[768px]:max-[1280px]:w-[25px] max-md:w-[20px]"
             />
-          </button>
+          </Link>
 
         </div>
         {/* Image Hero */}

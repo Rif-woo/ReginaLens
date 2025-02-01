@@ -3,8 +3,8 @@ import QualityBox from '../QualityBox';
 
 const AboutSection = () => {
   return (
-    <div className='flex flex-col justify-center items-center gap-4 w-full mb-48'>
-      <h1 className='text-4xl font-medium mb-16 xl:max-[1515px]:text-2xl xl:max-[1515px]:mb-10 min-[768px]:max-[1280px]:mb-5 min-[768px]:max-[1280px]:text-2xl max-md:text-center max-md:text-2xl max-md:w-full max-md:mb-5 max-md:mt-16'>QUI SOMME NOUS ?</h1>
+    <div className='flex flex-col justify-center items-center gap-4 w-full mb-48 ' id='AboutUs'>
+      <h1 className='text-4xl font-medium mb-16 xl:max-[1515px]:text-2xl xl:max-[1515px]:mb-10 min-[768px]:max-[1280px]:mb-5 min-[768px]:max-[1280px]:text-2xl max-md:text-center max-md:text-xl max-md:w-full max-md:mb-5 max-md:mt-16  max-md:font-semibold'>QUI SOMME NOUS ?</h1>
       <div className='flex justify-center items-center gap-16 w-full max-md:flex-col'>
         {/* Image */}
          <div className='max-md:hidden'>
