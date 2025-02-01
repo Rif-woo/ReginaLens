@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <div className=' w-full h-full flex flex-col justify-start items-center gap-16 xl:max-[1515px]:gap-10 xl:max-[1515px]:mb-32 min-[768px]:max-[1280px]:gap-15 min-[768px]:max-[1280px]:mb-20 min-[768px]:max-[1514px]:h-[720px]
     min-[768px]:max-[1514px]:mb-0 max-md:gap-4'>
-      <div>
+      <Link href="/">
         <Image
           src="/reginaLens.svg"
           alt="Hero"
@@ -13,7 +13,7 @@ const HeroSection = () => {
           height={150}
           className="object-cover object-center xl:max-[1515px]:w-[120px] min-[768px]:max-[1280px]:w-[100px] max-md:w-[90px]"
         />
-      </div>
+      </Link>
 
       <div className='flex justify-center items-center w-full gap-16 min-[768px]:max-[1280px]:justify-around max-md:flex-col '>
 

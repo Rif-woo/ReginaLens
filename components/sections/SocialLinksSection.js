@@ -7,8 +7,7 @@ const SocialLinksSection = () => {
       <div className='flex justify-between items-center gap-4 bg-[#f7f7f7] w-[800px] rounded-2xl px-8 max-md:w-full max-md:px-2'>
         <div>
             <Link
-            href="https://www.reginalens.com/"
-            target="_blank">
+            href="/">
             <Image
             src="/reginaLens.svg"
             alt="Hero"
