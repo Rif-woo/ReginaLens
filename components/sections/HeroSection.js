@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 const HeroSection = () => {
   return (
-    <div className=' w-full h-full flex flex-col justify-start items-center gap-16 xl:max-[1515px]:gap-10 xl:max-[1515px]:mb-32 min-[768px]:max-[1280px]:gap-15 min-[768px]:max-[1280px]:mb-20 min-[768px]:max-[1514px]:h-[720px]
-    min-[768px]:max-[1514px]:mb-0 max-md:gap-4'>
+    <div className=' w-full h-full flex flex-col justify-start items-center gap-16 xl:max-[1515px]:gap-10 xl:max-[1515px]:mb-4 min-[768px]:max-[1280px]:gap-15 min-[768px]:max-[1280px]:mb-0 min-[768px]:max-[1514px]:h-[720px]
+    min-[768px]:max-[1514px]:mb-0 max-md:gap-4 max-md:justify-end'>
       <Link href="/">
         <Image
           src="/reginaLens.svg"
